@@ -1,7 +1,7 @@
 module.exports = {
     apps: [{
       name: 'test-node-2',
-      script: './webservices.js'
+      script: './index.js'
     }],
     deploy: {
       production: {
