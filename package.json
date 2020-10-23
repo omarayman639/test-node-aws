@@ -1,11 +1,12 @@
 {
-  "name": "express-server",
+  "name": "test-node",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "webservices.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "nodemon webservices.js"
+    "restart": "pm2 startOrRestart ecosystem.config.js",
+    "deploy": "pm2 deploy ecosystem.config.js production",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
@@ -32,5 +33,8 @@
     "sequelize-auto": "^0.5.3",
     "sqlite3": "^5.0.0",
     "tedious": "^8.3.0"
+  },
+  "devDependencies": {
+    "pm2": "^4.5.0"
   }
 }
