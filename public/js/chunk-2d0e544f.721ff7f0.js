@@ -1,2 +1,0 @@
-(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0e544f"],{9486:function(t,e,c){"use strict";c.r(e);var n=function(){var t=this,e=t.$createElement,c=t._self._c||e;return c("div")},o=[],a={name:"activation",data:function(){return{snackbar:!1,timeout:3e3}},methods:{},created:function(){console.log(this.$route.params.cryptoo),this.$store.dispatch("activateUserAccount",this.$route.params.cryptoo)}},r=a,s=c("2877"),i=Object(s["a"])(r,n,o,!1,null,"0cbd758c",null);e["default"]=i.exports}}]);
-//# sourceMappingURL=chunk-2d0e544f.721ff7f0.js.map
